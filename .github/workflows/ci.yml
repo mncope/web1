@@ -20,4 +20,4 @@ jobs:
       - name: Compile
         run: python -m compileall land_system tests
       - name: Test
-        run: pytest
+        run: python -m pytest
